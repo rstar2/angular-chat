@@ -1,0 +1,21 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "author": "Rumen Neshev",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/socket.io": "^1.4.31",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "typescript": "^2.6.2"
+  }
+}
